@@ -7,7 +7,7 @@ myImg.onclick =function(){
     if(mySrc === "Capture.JPG"){
        myImg.setAttribute('src', "Capture2.JPG");
    }
-   else if(mySrc === "images/Capture2.JPG"){
+   else if(mySrc === "Capture2.JPG"){
        myImg.setAttribute('src', "Capture3.JPG");
    }
     else{
