@@ -4,14 +4,14 @@ let myImg = document.querySelector('img');
 
 myImg.onclick =function(){
   let mySrc = myImg.getAttribute('src');
-    if(mySrc === "images/Capture.JPG"){
-       myImg.setAttribute('src', "images/Capture2.JPG");
+    if(mySrc === "Capture.JPG"){
+       myImg.setAttribute('src', "Capture2.JPG");
    }
    else if(mySrc === "images/Capture2.JPG"){
-       myImg.setAttribute('src', "images/Capture3.JPG");
+       myImg.setAttribute('src', "Capture3.JPG");
    }
     else{
-       myImg.setAttribute('src', "images/Capture.JPG");
+       myImg.setAttribute('src', "Capture.JPG");
    }
 }
 
